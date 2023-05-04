@@ -31,7 +31,8 @@ function changeMode(){
  
 function loadCoupon(){
     document.getElementById('coupon').style.visibility = 'visible';
-    // document.body.style.opacity = '0.7'
+    document.getElementById('main').style.opacity = '0.3'
+
     document.querySelector("body").style.overflow='hidden';
 }
 

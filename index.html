@@ -22,13 +22,19 @@
         <div class="container">
 
             <header>
+                <div id="loc"><img src="images/icons8-location-100.png">
+                    <div>
+                    <p id="out"></p>
+                    <p id="weather"></p>
+                    </div>
+                </div>
                 <div class="home">
                     <img src="images/flipkart_logo.png" alt="main_logo">
                 </div>
                 <div class="search_bar">
                     <form>
-                        <input type="search" name="product" value="Search for products ,brands and more">
-                        <button type="submit"><img src="images/search-214-16.png"></button>
+                        <input type="search" name="product" outline="none" placeholder="Search for products ,brands and more" style="none">
+                        <button type="submit"><img src="images/icons8-search-150.png"></button>
                     </form>
 
                 </div>
@@ -44,6 +50,9 @@
                         <a href="">Orders</a>
                         <a href="">Rewards</a>
                         <a href="">Gift Cards</a>
+                        <a>Dark Mode<label class="switch">
+                            <input type="checkbox" onclick="changeMode()">
+                            <span class="slider round"></span></label></a>
                     </div>
 
                 </div>
@@ -60,12 +69,7 @@
                                 <hr>
                                 <a href="">Download</a>
                         </li>
-                        <li>Cart</li>
-                        <li>Dark Mode<label class="switch">
-                                <input type="checkbox" onclick="changeMode()">
-                                <span class="slider round"></span>
-                            </label>
-                        </li>
+                        <li><img src="images/shopping-cart.png" alt="cart" style="width:22px; height:17px;"> Cart</li>
 
                     </ul>
                 </nav>
@@ -101,6 +105,7 @@
                         <figure><img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100">
                             <figcaption>flights</figcaption>
                         </figure>
+                        
                     </div>
                 </div>
                 <div class="row2">
@@ -116,7 +121,7 @@
 
         <div class="container">
 
-        <div class="section2">
+        <div class="section2" id="sec1">
 
 
             <div class="x1">
@@ -216,7 +221,7 @@
 
         <div class="container">
 
-        <div class="section2">
+        <div class="section2" id="sec2">
 
 
             <div class="x1">
@@ -430,6 +435,7 @@
 
     <script>
         window.onload = loadCoupon()
+        window.onload(geolocation());
     </script>
 
 

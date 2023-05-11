@@ -19,15 +19,18 @@ function hide(x){
     x.style.display="none";
 }
 
+// --------------------------Dark Mode-------------------------------------------
+
 function changeMode(){
         let mybody = document.body;
         mybody.classList.toggle('mydark');
-        let b1=document.getElementsByClassName('x2');
-        b1.classList.toggle('mydark1')
+        document.getElementById('sec1').classList.toggle('mydark1');
+        document.getElementById('sec2').classList.toggle('mydark1');
 }
 
+// ------------------------------------------------------------------------------------
 
-
+// --------------------Coupon------------------------------------------------------
  
 function loadCoupon(){
     document.getElementById('coupon').style.visibility = 'visible';
@@ -42,3 +45,38 @@ function closeCoupon(){
     document.querySelector("body").style.overflow='visible';
 }
 
+// -------------------------------------------------------------------------------
+
+
+// ------------------------------------------GeoLocation------------------------------
+
+window.onload(geolocation());
+function geolocation(){
+    if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(showPosition)
+    }else{
+        p.innerText="Geo Not Supported"
+    }
+}
+
+function showPosition(data){
+    let p = document.getElementById('out');
+    let q = document.getElementById('weather');
+    console.log(data)
+    let lat = data.coords.latitude
+    let lon = data.coords.longitude
+    const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`;
+    fetch(url,{method: 'GET'})
+    //return promise
+    .then((res) =>res.json())
+    //resolve the promise
+    .then((data) => {
+        console.log(data)
+        let cityName = data.city.name;
+        let temp = data.list[0].temp.day+" °C"
+        p.innerText= cityName;
+        q.innerText =temp;
+    })
+}
+
+// ----------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,226 @@
+[
+    {
+        "id":1,
+        "sub_category": "Tshirt",
+        "category_id":1,
+        "category":"Fashion"
+    },
+    {
+        "id":2,
+        "sub_category": "jeans",
+        "category_id":1,
+        "category":"Fashion"
+    },
+    {
+        "id":3,
+        "sub_category": "Shirts",
+        "category_id":1,"category":"Fashion"
+    },
+    {
+        "id":4,
+        "sub_category": "footware",
+        "category_id":1,
+        "category":"Fashion"
+    },
+    {
+        "id":5,
+        "sub_category": "kurta",
+        "category_id":1,
+        "category":"Fashion"
+    },
+    {
+        "id":6,
+        "sub_category": "shorts",
+        "category_id":1,
+        "category":"Fashion"
+    },
+    {
+        "id":7,
+        "sub_category": "girls top",
+        "category_id":1,
+        "category":"Fashion"
+    },
+    {
+        "id":8,
+        "sub_category": "pants",
+        "category_id":1,
+        "category":"Fashion"
+    },
+    {
+        "id":9,
+        "sub_category": "sarre",
+        "category_id":1,
+        "category":"Fashion"
+    },
+    {
+        "id":10,
+        "sub_category": "formals",
+        "category_id":1,
+        "category":"Fashion"
+    },
+
+
+
+    {
+        "id":11,
+        "sub_category": "Tv's",
+        "category_id":2,
+        "category":"Electronics"
+    },
+    {
+        "id":12,
+        "sub_category": "AC",
+        "category_id":2,
+        "category":"Electronics"
+    },
+    {
+        "id":13,
+        "sub_category": "irons",
+        "category_id":2,
+        "category":"Electronics"
+    },
+    {
+        "id":14,
+        "sub_category": "Pc's",
+        "category_id":2,
+        "category":"Electronics"
+    },
+    {
+        "id":15,
+        "sub_category": "Fan",
+        "category_id":2,
+        "category":"Electronics"
+    },
+    {
+        "id":16,
+        "sub_category": "Power-tools",
+        "category_id":2,
+        "category":"Electronics"
+    },
+    {
+        "id":17,
+        "sub_category": "water Pumps",
+        "category_id":2,
+        "category":"Electronics"
+    },
+
+
+
+    {
+        "id":18,
+        "sub_category": "ferniture",
+        "category_id":3,
+        "category":"Home"
+    },
+    {
+        "id":19,
+        "sub_category": "mops",
+        "category_id":3,
+        "category":"Home"
+    },
+    {
+        "id":20,
+        "sub_category": "gardenspray",
+        "category_id":3,
+        "category":"Home"
+    },
+    {
+        "id":21,
+        "sub_category": "kids",
+        "category_id":3,
+        "category":"Home"
+    },
+    {
+        "id":22,
+        "sub_category": "toys",
+        "category_id":3,
+        "category":"Home"
+    },
+    {
+        "id":23,
+        "sub_category": "Decorative-items",
+        "category_id":3,
+        "category":"Home"
+    },
+    
+    
+    {
+        "id":24,
+        "sub_category": "Smart-Phone",
+        "category_id":4,
+        "category":"Mobile"
+    },
+    {
+        "id":25,
+        "sub_category": "Earphone",
+        "category_id":4,
+        "category":"Mobile"
+    },
+    {
+        "id":26,
+        "sub_category": "Power-bank",
+        "category_id":4,
+        "category":"Mobile"
+    },
+    {
+        "id":27,
+        "sub_category": "Charger",
+        "category_id":4,
+        "category":"Mobile"
+    },
+    {
+        "id":28,
+        "sub_category": "Back-Cover",
+        "category_id":4,
+        "category":"Mobile"
+    },
+    {
+        "id":29,
+        "sub_category": "tablate",
+        "category_id":4,
+        "category":"Mobile"
+    },
+
+
+
+
+    {
+        "id":30,
+        "sub_category": "Dals",
+        "category_id":5,
+        "category":"grocery"
+    },   
+    {
+        "id":31,
+        "sub_category": "rice",
+        "category_id":5,
+        "category":"grocery"
+    },
+    {
+        "id":32,
+        "sub_category": "oils",
+        "category_id":5,
+        "category":"grocery"
+    },
+    {
+        "id":33,
+        "sub_category": "beauty",
+        "category_id":5,
+        "category":"grocery"
+    },
+    {
+        "id":34,
+        "sub_category": "Grain",
+        "category_id":5,
+        "category":"grocery"
+    },
+    {
+        "id":35,
+        "sub_category": "spices",
+        "category_id":5,
+        "category":"grocery"
+    }
+
+
+
+]

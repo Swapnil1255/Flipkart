@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "category": "Fashion",
+        "view":"https://i.ibb.co/5GBHfp6/c12afc017e6f24cb.png"
+    },
+    {
+        "id": 2,
+        "category": "Electronics",
+        "view":"https://i.ibb.co/dJ1NnRd/69c6589653afdb9a.png"    
+    },
+    {
+        "id": 3,
+        "category": "Home",
+        "view":"https://i.ibb.co/dkT14tC/home-furniture.png"
+    },
+    {
+        "id": 4,
+        "category": "Mobile",
+        "view":"https://i.ibb.co/wBQVwVb/22fddf3c7da4c4f4.png"
+    },
+    {
+        "id": 5,
+        "category": "Grocery",
+        "view":"https://i.ibb.co/fCm0z8Y/29327f40e9c4d26b.png"
+    }
+]

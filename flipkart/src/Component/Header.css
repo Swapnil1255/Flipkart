@@ -1,0 +1,170 @@
+header {
+    font-family: sans-serif;
+    color: aliceblue;
+    width: 100%;
+    height: 49px;
+    background-color: #2874f0;
+    padding-top: 5px;
+
+}
+
+.home {
+    width: 4%;
+    margin-left: 18%;
+    float: left;
+
+}
+
+.home img {
+    width: 40px;
+    height: 38px;
+}
+
+.search_bar {
+    float: left;
+    width: 29%;
+}
+
+.search_bar form input {
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+
+.search_bar form button {
+    position: relative;
+    width: 53px;
+    height: 40px;
+    background-color: white;
+    top: -40px;
+    left: 371px;
+    border: none;
+}
+.search_bar form button img{
+    width: 25px;
+    height: 25px;
+}
+
+.search_bar form{
+    height: 40px;
+}
+
+
+.login button {
+
+    width: 128px;
+    height: 34px;
+    color: rgb(9, 77, 194);
+    font-size: large;
+    font-weight: 400;
+    margin-top: 3px;
+
+}
+
+.login {
+    margin-left: 25px;
+    width: 8%;
+    float: left;
+}
+
+#login_options {
+    position: absolute;
+    display: none;
+    width: 200px;
+    z-index: 1;
+    background-color: #f8fcff;
+    box-shadow: 8px 8px 8px rgb(26, 24, 24);
+
+}
+
+#login_options a {
+    border-bottom: 1px solid lightgray;
+    position: relative;
+    margin: 10px 10px;
+    color: rgb(72 119 200);
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+    
+    }    
+
+#login_options a:hover {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+nav ul {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 700;
+    float: left;
+    margin-top: -20px;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    margin: 10px 6px;
+}
+
+
+#more .more_options a {
+    text-decoration: none; 
+    color: rgb(30, 74, 170);
+    display: block;
+    background-color: aliceblue;
+    padding: 8px;
+    font-size: 12px; 
+    
+
+}
+
+.more_options {
+    position: absolute;
+    display: none;
+    width: 200px;
+    z-index: 1;
+    background-color: #f8fcff;
+    box-shadow: 8px 8px 8px rgb(40, 38, 38);
+
+}
+
+#more:hover .more_options {
+    display: block;
+}
+#more img{
+    width: 10px;
+    height: 10px;
+    transform: rotate(180deg);
+}
+#more:hover img{
+    transform: rotate(360deg);
+}
+
+
+
+#loc img{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+#loc div{
+    z-index: 100;
+    float: left;
+    width: 70px;
+    height: 40px;
+}
+#loc div p{
+    margin: 2px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #000000;
+}
+#loc{
+    margin-left: 115px;
+}
+
+.login:hover #login_options{
+    display: block;
+}
+

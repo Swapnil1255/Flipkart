@@ -1,0 +1,52 @@
+.detail{
+    height: 500px;
+    margin-top:25px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.product_details{
+    margin-top: 15px;
+}
+
+.product_details h4{
+    color: cadetblue;
+    font-size: 49px;
+    font-family: math;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.product_details h3{
+    color: cadetblue;
+    font-size: 49px;
+    font-family: math;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+.product_details button{
+    margin: 15px;
+    background-color: orangered;
+    color: aliceblue;
+    padding: 5px 10px;
+    font-size: large;
+    
+}
+
+.product_image img{
+    height: 100%;
+}
+
+.product_details h2{
+    
+    font-size: 30px;
+    font-family: math;
+    font-weight: 500;
+    font-style: bold;
+
+}
+
+
+

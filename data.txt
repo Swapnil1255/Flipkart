@@ -1,0 +1,33 @@
+
+* Flipkart *
+
+Page1
+Category wise Sub_category
+http://localhost:2022/sub_category?category_id=4
+
+Page2
+Category wise Sub_category
+http://localhost:2022/sub_category?category_id=4
+products by Sub_category wise
+http://localhost:2022/products?sub_category_id=7
+product filter by cost wise 
+http://localhost:2022/filter/18?lcost=100&hcost=2000
+
+Page3
+Selected product all details
+http://localhost:2022/details/6489c85ebaa5f9e2afabe605
+recently Viewed Products
+
+Page4
+ordered product 
+http://localhost:2022/orders
+place ordere
+http://localhost:2022/placeOrder
+delete ordered
+http://localhost:2022/deleteOrder
+
+Page5
+products add to cart Product details
+http://localhost:2022/cart
+delete cart product
+http://localhost:2022/deleteCart-product
